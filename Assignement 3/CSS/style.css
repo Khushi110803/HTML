@@ -1,0 +1,77 @@
+body
+{
+  display:flex;
+  margin:0;
+  padding:0;
+  align-items: center;
+}
+.flex>header
+{
+  height: 125px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.flex>header>div {
+  width: auto;
+  height: 110px;
+  flex-grow: 1;
+}
+.flex>div>
+{
+  display:flex;
+  align-items: center;
+}
+.flex>div>main>section:first-child
+{
+  margin-left: 130%;
+  background-repeat: no-repeat;
+  width: 150%;
+  height: 150vh;
+  background-image: url("../img/baby.webp");
+  background-size:contain;
+  align-items: center;
+}
+.flex>div>main>section:nth-child(2)
+{
+  padding:2%;
+}
+
+.flex>div>main>section:first-child>div>h1 {
+  font-size: 3.5em;
+  color:aqua;
+  text-align: justify;
+}
+
+.flex>div>main>section:first-child>.text>h3
+{
+  font-size: 1em;
+  color:deepskyblue;
+  margin-top: -7%;
+}
+
+.flex>div>main>section:first-child>.part>h1
+{
+  opacity: 4;
+  color:blanchedalmond;
+  text-align: center;
+  font-size:100px;
+  margin-top: 60%;
+}
+
+.flex>div>main>section:first-child>.director>h2
+{
+  letter-spacing: 3px;
+  text-align:center;
+  margin-top: -10%;
+  font-size: large;
+  color:aquamarine;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.flex>div>main>section:first-child>.release>h3
+{
+  color:antiquewhite;
+  text-align: center;
+}
+
